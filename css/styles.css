@@ -28,3 +28,11 @@ img {
   max-width: 1200px;
   list-style: none;
 }
+
+.gallery-image {
+  transition: transform 0.3s ease-in-out;
+}
+
+.gallery-item:hover .gallery-image {
+  transform: scale(1.05);
+}
